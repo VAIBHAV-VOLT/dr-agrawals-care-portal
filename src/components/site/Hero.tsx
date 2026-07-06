@@ -1,6 +1,6 @@
 import { MessageCircle, CalendarCheck, ShieldCheck, Award, Stethoscope } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import doctorImg from "@/assets/dr-agrawal.jpg";
+import doctorImg from "@/assets/dr-agrawal.png";
 import { whatsappLink } from "@/lib/site";
 
 const expertise = [
