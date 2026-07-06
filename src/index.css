@@ -8,35 +8,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base surfaces */
+    --background: 210 40% 99%;
+    --foreground: 215 45% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 45% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 45% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
+    /* Deep medical blue */
+    --primary: 212 78% 22%;
     --primary-foreground: 210 40% 98%;
+    --primary-glow: 212 70% 42%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Soft blue secondary */
+    --secondary: 210 40% 96.5%;
+    --secondary-foreground: 212 78% 22%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 30% 96%;
+    --muted-foreground: 215 20% 42%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Teal accent */
+    --accent: 180 65% 40%;
+    --accent-foreground: 0 0% 100%;
+    --accent-soft: 180 55% 94%;
 
-    --destructive: 0 84.2% 60.2%;
+    /* Crimson (used sparingly) */
+    --crimson: 350 72% 48%;
+    --crimson-foreground: 0 0% 100%;
+
+    --destructive: 0 78% 52%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 212 30% 90%;
+    --input: 212 30% 90%;
+    --ring: 212 78% 32%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(212 78% 22%) 0%, hsl(200 75% 30%) 55%, hsl(180 65% 40%) 100%);
+    --gradient-soft: linear-gradient(180deg, hsl(210 40% 99%) 0%, hsl(200 50% 96%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(180 65% 40%), hsl(200 75% 45%));
+
+    /* Shadows */
+    --shadow-elegant: 0 20px 50px -20px hsl(212 78% 22% / 0.25);
+    --shadow-card: 0 4px 20px -8px hsl(212 60% 30% / 0.12);
+    --shadow-glow: 0 0 40px hsl(180 65% 55% / 0.35);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,7 +78,7 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 215 45% 8%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
@@ -100,6 +122,27 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-hero { background: var(--gradient-hero); }
+  .bg-gradient-soft { background: var(--gradient-soft); }
+  .bg-gradient-accent { background: var(--gradient-accent); }
+  .shadow-elegant { box-shadow: var(--shadow-elegant); }
+  .shadow-card { box-shadow: var(--shadow-card); }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
+  .transition-smooth { transition: var(--transition-smooth); }
+
+  .text-balance { text-wrap: balance; }
+
+  .container-tight {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
   }
 }
