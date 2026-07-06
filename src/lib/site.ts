@@ -6,8 +6,8 @@ export const site = {
       "Advanced, compassionate care in Bone Marrow Transplant, CAR-T Cell Therapy, Immunotherapy and Blood Disorders.",
   },
   contact: {
-    phone: "+91 98765 43210",
-    whatsapp: "919876543210",
+    phone: "+91 98687 64808",
+    whatsapp: "919868764808",
     email: "care@drnarendraagrawal.com",
     address: "Rajiv Gandhi Cancer Institute, Sector V, Rohini, New Delhi",
   },
