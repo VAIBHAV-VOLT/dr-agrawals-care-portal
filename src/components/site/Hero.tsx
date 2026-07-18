@@ -3,6 +3,17 @@ import { Button } from "@/components/ui/button";
 import doctorImg from "@/assets/dr-agrawal.png";
 import { whatsappLink } from "@/lib/site";
 
+const expertise = [
+  "Bone Marrow Transplant",
+  "CAR-T Cell Therapy",
+  "Immunotherapy",
+  "Blood Disorders",
+  "Blood Cancer",
+  "THALASSEMIA",
+  "Aplastic Anemia",
+  "PNH",
+];
+
 export const Hero = () => {
   return (
     <section
@@ -16,15 +27,19 @@ export const Hero = () => {
 
       <div className="container-tight grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <div className="animate-fade-in">
-          <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary backdrop-blur">
+          {/* <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary backdrop-blur">
             <ShieldCheck className="h-3.5 w-3.5 text-accent" />
             20+ years of clinical excellence
-          </p>
+          </p> */}
 
           <h1 className="font-serif text-4xl font-semibold leading-[1.1] tracking-tight text-primary md:text-5xl lg:text-6xl text-balance">
             Dr. Narendra Agrawal
             <span className="mt-3 block text-xl font-normal text-accent md:text-2xl lg:text-3xl">
-              Consultant Hematologist · Blood Cancer Specialist
+              · Hematologist
+              <br />
+              · Specialist for
+              <br />
+              (Blood Disorder/Blood Cancer)
             </span>
           </h1>
 
@@ -48,14 +63,14 @@ export const Hero = () => {
             </Button>
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 text-sm text-muted-foreground">
+          {/* <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 text-sm text-muted-foreground">
             <span className="inline-flex items-center gap-2">
               <Award className="h-4 w-4 text-accent" /> Fellowship trained (BMT)
             </span>
             <span className="inline-flex items-center gap-2">
               <Stethoscope className="h-4 w-4 text-accent" /> 5,000+ patients cared for
             </span>
-          </div>
+          </div> */}
         </div>
 
         <div className="relative animate-scale-in">
