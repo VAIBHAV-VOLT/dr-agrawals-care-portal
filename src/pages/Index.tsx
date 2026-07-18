@@ -1,6 +1,6 @@
 import Navbar from "@/components/site/Navbar";
 import Hero from "@/components/site/Hero";
-import Stats from "@/components/site/Stats";
+import ProfessionalHighlights from "@/components/site/ProfessionalHighlights";
 import WhyChoose from "@/components/site/WhyChoose";
 import WhenToConsult from "@/components/site/WhenToConsult";
 import Treatments from "@/components/site/Treatments";

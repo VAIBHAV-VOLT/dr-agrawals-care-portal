@@ -48,17 +48,6 @@ export const Hero = () => {
             blood disorders — backed by international protocols and a deeply human approach.
           </p>
 
-          <ul className="mt-8 flex flex-wrap gap-2">
-            {expertise.map((e) => (
-              <li
-                key={e}
-                className="rounded-full border border-border bg-white/80 px-4 py-2 text-sm font-medium text-primary shadow-card backdrop-blur"
-              >
-                {e}
-              </li>
-            ))}
-          </ul>
-
           <div className="mt-10 flex flex-wrap gap-4">
             <Button asChild variant="hero" size="xl">
               <a href="#contact">
