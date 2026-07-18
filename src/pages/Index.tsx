@@ -17,7 +17,11 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <ProfessionalHighlights />
+        <section className="py-16 md:py-20 bg-gradient-soft scroll-mt-24">
+          <div className="container-tight max-w-4xl">
+            <ProfessionalHighlights />
+          </div>
+        </section>
         {/* <Stats /> */}
         {/* <WhyChoose /> */}
         <WhenToConsult />
