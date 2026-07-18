@@ -1,10 +1,10 @@
 import { CheckCircle2 } from "lucide-react";
 
 const highlights = [
-  "Fellowship-trained in Bone Marrow Transplantation from a leading international centre",
-  "Over two decades of specialist experience in leukemia, lymphoma and myeloma",
-  "Pioneered advanced cellular therapies including CAR-T and immunotherapy protocols",
-  "Active researcher and peer-reviewed author in haematology and stem-cell transplantation",
+  "18+ Years of Expertise in Hematology, Blood Cancer & Bone Marrow Transplantation",
+"Trained at India's Premier Institutes — AIIMS New Delhi & SGPGIMS Lucknow",
+"Specialist in Haploidentical (Half-Matched) Bone Marrow Transplantation",
+"Contributed to Hundreds of National & International Research Publications",
 ];
 
 export const ProfessionalHighlights = () => {
