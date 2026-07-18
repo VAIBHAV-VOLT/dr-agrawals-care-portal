@@ -2,7 +2,6 @@ import { MessageCircle, CalendarCheck, ShieldCheck, Award, Stethoscope } from "l
 import { Button } from "@/components/ui/button";
 import doctorImg from "@/assets/dr-agrawal.png";
 import { whatsappLink } from "@/lib/site";
-import ProfessionalHighlights from "@/components/site/ProfessionalHighlights";
 
 export const Hero = () => {
   return (
@@ -33,10 +32,6 @@ export const Hero = () => {
             Personalised, precision-driven treatment for leukemia, lymphoma, myeloma and complex
             blood disorders — backed by international protocols and a deeply human approach.
           </p>
-
-          <div className="mt-8 max-w-xl">
-            <ProfessionalHighlights />
-          </div>
 
           <div className="mt-10 flex flex-wrap gap-4">
             <Button asChild variant="hero" size="xl">
