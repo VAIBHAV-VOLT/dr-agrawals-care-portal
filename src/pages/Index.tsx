@@ -17,7 +17,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <Stats />
+        {/* <Stats /> */}
         {/* <WhyChoose /> */}
         <WhenToConsult />
         <Treatments />
