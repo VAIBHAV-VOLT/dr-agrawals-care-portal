@@ -1,6 +1,6 @@
 import Navbar from "@/components/site/Navbar";
 import Hero from "@/components/site/Hero";
-import Stats from "@/components/site/Stats";
+import ProfessionalHighlights from "@/components/site/ProfessionalHighlights";
 import WhyChoose from "@/components/site/WhyChoose";
 import WhenToConsult from "@/components/site/WhenToConsult";
 import Treatments from "@/components/site/Treatments";
@@ -17,7 +17,11 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <Stats />
+        <section className="py-16 md:py-20 bg-gradient-soft scroll-mt-24">
+          <div className="container-tight max-w-4xl">
+            <ProfessionalHighlights />
+          </div>
+        </section>
         <WhyChoose />
         <WhenToConsult />
         <Treatments />
