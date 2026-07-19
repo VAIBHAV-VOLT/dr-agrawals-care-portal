@@ -6,8 +6,8 @@ export const site = {
       "Advanced, compassionate care in Bone Marrow Transplant, CAR-T Cell Therapy, Immunotherapy and Blood Disorders.",
   },
   contact: {
-    phone: "+919868764808",
-    whatsapp: "919868764808",
+    phone: "01147022222",
+    whatsapp: "-",
     email: "narendra_ag1@rediffmail.com",
     address: "Rajiv Gandhi Cancer Institute & Research Centre, Sector-5, Rohini, Delhi - 110085, India",
   },
