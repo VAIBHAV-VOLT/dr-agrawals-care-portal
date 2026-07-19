@@ -2,7 +2,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const highlights = [
   "18+ years of expertise in hematology, blood cancer, and bone marrow transplantation",
-  "Trained at India's premier institutes — AIIMS New Delhi and SGPGIMS Lucknow",
+  "Alumnus of India's premier institutes — AIIMS New Delhi and SGPGIMS Lucknow",
   "Specialist in haploidentical (half-matched) bone marrow transplantation",
   "Contributed to hundreds of national and international research publications",
 ];
