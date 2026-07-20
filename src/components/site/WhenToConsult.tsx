@@ -8,6 +8,7 @@ const signs = [
   { icon: Bandage, text: "Swollen lymph nodes lasting more than 2 weeks" },
   { icon: HeartPulse, text: "Unexplained weight loss or loss of appetite" },
   { icon: AlertCircle, text: "Abnormal CBC or blood test findings" },
+  { icon: Bandage, text: "Back Pain / Spine Pain / Bone Pain" },
 ];
 
 export const WhenToConsult = () => {

@@ -22,7 +22,8 @@ const Index = () => {
             <ProfessionalHighlights />
           </div>
         </section>
-        <WhyChoose />
+        {/* <Stats /> */}
+        {/* <WhyChoose /> */}
         <WhenToConsult />
         <Treatments />
         <Diseases />

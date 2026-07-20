@@ -5,7 +5,7 @@ const treatments = [
   { icon: Layers, title: "Bone Marrow Transplant", text: "Allogeneic, autologous and haploidentical transplants for leukemia, lymphoma and myeloma." },
   { icon: Dna, title: "CAR-T Cell Therapy", text: "Next-generation cellular therapy for relapsed and refractory blood cancers." },
   { icon: Syringe, title: "Immunotherapy", text: "Monoclonal antibodies, bispecifics and checkpoint inhibitors tailored to your disease." },
-  { icon: FlaskConical, title: "Targeted Chemotherapy", text: "Precision drug regimens guided by molecular and cytogenetic profiling." },
+  { icon: FlaskConical, title: "Targeted Therapy", text: "Precision drug regimens guided by molecular and cytogenetic profiling." },
   { icon: HeartPulse, title: "Blood Disorder Management", text: "Comprehensive care for anemia, thalassemia, hemophilia and clotting disorders." },
   { icon: Sparkles, title: "Clinical Trials Access", text: "Curated access to global trials for eligible patients seeking novel therapies." },
 ];
