@@ -1,4 +1,5 @@
 import { MessageCircle, CalendarCheck, ShieldCheck, Award, Stethoscope } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import doctorImg from "@/assets/dr-agrawal.png";
 import { whatsappLink } from "@/lib/site";
@@ -61,10 +62,10 @@ export const Hero = () => {
 
           <div className="mt-10 flex flex-wrap gap-4">
             <Button asChild variant="hero" size="xl">
-              <a href="/appointment">
+              <Link to="/appointment">
                 <CalendarCheck className="h-5 w-5" />
                 Book Appointment
-              </a>
+              </Link>
             </Button>
             <Button asChild variant="whatsapp" size="xl">
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
