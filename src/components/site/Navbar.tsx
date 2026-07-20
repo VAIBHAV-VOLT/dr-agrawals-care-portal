@@ -54,7 +54,7 @@ export const Navbar = () => {
             <Phone className="h-4 w-4" /> {site.contact.phone}
           </a>
           <Button asChild variant="hero" size="lg" className="rounded-full">
-            <a href="#contact">Book Appointment</a>
+            <a href="/appointment">Book Appointment</a>
           </Button>
         </div>
 
@@ -83,7 +83,7 @@ export const Navbar = () => {
               </a>
             ))}
             <Button asChild variant="hero" size="lg" className="rounded-full mt-2">
-              <a href="#contact" onClick={() => setOpen(false)}>Book Appointment</a>
+              <a href="/appointment" onClick={() => setOpen(false)}>Book Appointment</a>
             </Button>
           </nav>
         </div>

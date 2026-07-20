@@ -61,7 +61,7 @@ export const Hero = () => {
 
           <div className="mt-10 flex flex-wrap gap-4">
             <Button asChild variant="hero" size="xl">
-              <a href="https://www.rgcirc.org/doctor/dr-narendra-agrawal/">
+              <a href="/appointment">
                 <CalendarCheck className="h-5 w-5" />
                 Book Appointment
               </a>
