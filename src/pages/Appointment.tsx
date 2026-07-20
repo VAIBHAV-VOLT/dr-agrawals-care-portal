@@ -9,9 +9,9 @@ const options = [
     icon: Video,
     title: "Online Booking",
     desc: "Consult Dr. Agrawal over secure video from anywhere in the world.",
-    href: "/appointment/online",
+    href: "",//  /appointment/online
     tag: "Video Consultation",
-    cta: "Online Booking",
+    cta: "Comming Soon",
   },
   {
     icon: Building2,
