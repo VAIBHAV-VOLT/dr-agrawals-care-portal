@@ -21,8 +21,8 @@ export type BookingData = {
 
 export const CONSULTATION = {
   type: "Online Video Consultation",
-  duration: "30 minutes",
-  fee: 2500,
+  duration: "10 minutes",
+  fee: 2000,
   currency: "INR",
   currencySymbol: "₹",
   description:
