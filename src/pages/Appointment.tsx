@@ -17,9 +17,9 @@ const options = [
     icon: Building2,
     title: "In-Person Visit",
     desc: "Book a face-to-face consultation at the clinic in Rohini, Delhi.",
-    href: "#",
+    href: "https://www.rgcirc.org/doctor/dr-narendra-agrawal/",
     tag: "Clinic Visit",
-    cta: "Coming Soon",
+    cta: "Offline Booking",
   },
 ];
 
