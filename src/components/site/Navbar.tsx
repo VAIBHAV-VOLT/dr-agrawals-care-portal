@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
@@ -54,7 +55,7 @@ export const Navbar = () => {
             <Phone className="h-4 w-4" /> {site.contact.phone}
           </a>
           <Button asChild variant="hero" size="lg" className="rounded-full">
-            <a href="/appointment">Book Appointment</a>
+            <Link to="/appointment">Book Appointment</Link>
           </Button>
         </div>
 
@@ -83,7 +84,7 @@ export const Navbar = () => {
               </a>
             ))}
             <Button asChild variant="hero" size="lg" className="rounded-full mt-2">
-              <a href="/appointment" onClick={() => setOpen(false)}>Book Appointment</a>
+              <Link to="/appointment" onClick={() => setOpen(false)}>Book Appointment</Link>
             </Button>
           </nav>
         </div>

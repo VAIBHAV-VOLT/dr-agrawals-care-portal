@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { CalendarCheck, MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { site, whatsappLink } from "@/lib/site";
@@ -27,10 +28,10 @@ export const ContactCTA = () => {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button asChild variant="hero" size="xl">
-                  <a href={`tel:${site.contact.phone}`}>
+                  <Link to="/appointment">
                     <CalendarCheck className="h-5 w-5" />
                     Book Appointment
-                  </a>
+                  </Link>
                 </Button>
                 <Button asChild variant="whatsapp" size="xl">
                   <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
