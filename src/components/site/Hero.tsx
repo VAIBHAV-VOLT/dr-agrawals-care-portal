@@ -10,7 +10,7 @@ const expertise = [
   "Immunotherapy",
   "Blood Disorders",
   "Blood Cancer",
-  "THALASSEMIA",
+  "Thalassemia",
   "Aplastic Anemia",
   "PNH",
 ];

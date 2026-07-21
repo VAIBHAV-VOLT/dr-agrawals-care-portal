@@ -12,13 +12,13 @@ export const site = {
     address: "Rajiv Gandhi Cancer Institute & Research Centre, Sector-5, Rohini, Delhi - 110085, India",
   },
   nav: [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Treatments", href: "#treatments" },
-    { label: "Diseases", href: "#diseases" },
-    { label: "Testimonials", href: "#testimonials" },
-    { label: "FAQ", href: "#faq" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "/#home" },
+    { label: "About", href: "/#about" },
+    { label: "Treatments", href: "/#treatments" },
+    { label: "Diseases", href: "/#diseases" },
+    { label: "Testimonials", href: "/#testimonials" },
+    { label: "FAQ", href: "/#faq" },
+    { label: "Contact", href: "/#contact" },
   ],
 };
 
